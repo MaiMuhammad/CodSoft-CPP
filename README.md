@@ -7,3 +7,8 @@
 
 <h3> Task-2: Simple Calculator</h3>
 <h4>This is a simple calculator program that allows users to perform basic arithmetic operations on two numbers: addition, subtraction, multiplication, and division.</h4>
+
+#
+
+<h3> Task-3: Tic Tac Toe Game </h3>
+<h4>This is a simple console-based implementation of the game Tic-Tac-Toe. It allows two players to take turns and play the game until one of them wins or the game ends in a draw.</h4>
