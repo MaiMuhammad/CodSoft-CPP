@@ -12,23 +12,17 @@ void solution() {
     cout << "Welcome to the Number Guessing Game!" << endL;
     cout << "The Number is Between 1 and 100. Try to guess it." << endL;
 
-    while (guess != num) {
+    do {
         cout << "Enter your guess: ";
         cin >> guess;
-
-        int difference = abs(num - guess);
-
-        if (guess < num)
-            cout << "Too low! Try again." << endL;
+        if(guess >= num - 5 && guess <= num + 5 && guess != num)
+            cout << "Keep Going, you are too close!" << endl;
+        else if (guess < num)
+            cout << "Too low! Try again." << endl;
         else if (guess > num)
-            cout << "Too high! Try again." << endL;
-        else {
-            cout << "Congratulations! You guessed the number (" << num << ")." << endL;
-            break;
-        }
-        if (difference <= 10)
-            cout << "Keep Going, you are too close." << endL;
-    }
+            cout << "Too high! Try again." << endl;
+    }while (guess != num);
+    cout << "Congratulations! You guessed the number (" << num << ")." << endl;
 }
 
 int main() {
