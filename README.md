@@ -12,3 +12,8 @@
 
 <h3> Task-3: Tic Tac Toe Game </h3>
 <h4>This is a simple console-based implementation of the game Tic-Tac-Toe. It allows two players to take turns and play the game until one of them wins or the game ends in a draw.</h4>
+
+#
+
+<h3> Task-4: To Do List </h3>
+<h4>This is a simple console-based implementation of a to-do list application. It allows users to add tasks, view the list of tasks, mark tasks as completed, and remove tasks from the list.</h4>
