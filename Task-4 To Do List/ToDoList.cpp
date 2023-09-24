@@ -63,6 +63,7 @@ public:
             if (it->getDescription() == description) {
                 cout << "Task removed: " << description << endL;
                 it = tasks.erase(it);
+                return;
             }
             else ++it;
             if (it == tasks.end()) cout << "Task not found." << endL;
